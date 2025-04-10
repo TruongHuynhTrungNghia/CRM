@@ -1,0 +1,5 @@
+# Ignore the bin directory
+bin/
+
+# Ignore Debug directories for all services
+**/Debug/
