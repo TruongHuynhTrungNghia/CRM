@@ -4,6 +4,8 @@ var cache = builder.AddRedis("cache");
 
 var apiService = builder.AddProject<Projects.CRM_ApiService>("apiservice");
 
+
+
 builder.AddProject<Projects.CRM_Web>("webfrontend")
     .WithExternalHttpEndpoints()
     .WithReference(cache)
