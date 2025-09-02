@@ -1,5 +1,14 @@
 # Ignore the bin directory
 bin/
+obj/
+
+# JetBrains Rider
+.idea/
+*.iml
+*.iws
+*.ipr
+*.user
+.DS_Store
 
 # Ignore Debug directories for all services
 **/Debug/
