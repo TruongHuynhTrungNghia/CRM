@@ -1,6 +1,6 @@
 # Ignore the bin directory
 bin/
-obj/
+**/obj/
 
 # JetBrains Rider
 .idea/
